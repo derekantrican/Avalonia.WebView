@@ -36,8 +36,9 @@ partial class WebView2Core
         corewebview2.NewWindowRequested += CoreWebView2_NewWindowRequested;
         corewebview2.ContentLoading += CoreWebView2_ContentLoading;
         corewebview2.HistoryChanged += CoreWebView2_HistoryChanged;
-        corewebview2.NavigationCompleted += CoreWebView2_NavigationCompleted;
         corewebview2.NavigationStarting += CoreWebView2_NavigationStarting;
+        corewebview2.NavigationCompleted += CoreWebView2_NavigationCompleted;
+        corewebview2.ContainsFullScreenElementChanged += Corewebview2_ContainsFullScreenElementChanged;
         corewebview2.ProcessFailed += CoreWebView2_ProcessFailed;
         corewebview2.SourceChanged += CoreWebView2_SourceChanged;
         corewebview2.WebMessageReceived += CoreWebView2_WebMessageReceived;

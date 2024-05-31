@@ -155,6 +155,19 @@ partial class WebView2Core
         _callBack.PlatformWebViewNavigationCompleted(this, new WebViewUrlLoadedEventArg() { IsSuccess = e.IsSuccess, RawArgs = e });
     }
 
+    private void Corewebview2_ContainsFullScreenElementChanged(object sender, object e)
+    {
+        WebViewFullScreenChangedEventArgs args = new()
+        {
+            RawArgs = e,
+        };
+
+        if (CoreWebView2 != null)
+            args.IsFullScreen = CoreWebView2.ContainsFullScreenElement;
+
+        _callBack.PlatformWebViewFullScreenChanged(this, args);
+    }
+
     private void CoreWebView2_HistoryChanged(object sender, object e)
     {
     }

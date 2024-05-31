@@ -29,6 +29,11 @@ partial class BlazorWebView
         return true;
     }
 
+    void IVirtualWebViewControlCallBack.PlatformWebViewFullScreenChanged(object? sender, WebViewFullScreenChangedEventArgs args)
+    {
+        FullScreenChanged?.Invoke(sender, args);
+    }
+
     bool IVirtualWebViewControlCallBack.PlatformWebViewNewWindowRequest(object? sender, WebViewNewWindowEventArgs arg)
     {
         WebViewNewWindowRequested?.Invoke(sender, arg);

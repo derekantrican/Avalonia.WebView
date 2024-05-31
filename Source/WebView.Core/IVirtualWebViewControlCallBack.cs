@@ -11,6 +11,8 @@ public interface IVirtualWebViewControlCallBack
 
     void PlatformWebViewNavigationCompleted(object? sender, WebViewUrlLoadedEventArg arg);
 
+    void PlatformWebViewFullScreenChanged(object? sender, WebViewFullScreenChangedEventArgs args);
+
     void PlatformWebViewMessageReceived(object? sender, WebViewMessageReceivedEventArgs arg);
 
     bool PlatformWebViewNewWindowRequest(object? sender, WebViewNewWindowEventArgs arg);
