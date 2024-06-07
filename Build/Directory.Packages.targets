@@ -16,20 +16,12 @@
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>webview@avalonia-logo.png</PackageIcon>
 		<Version>$(WebviewVersion)</Version>
 		<PackageOutputPath>$(WebViewPackageOutputPath)</PackageOutputPath>
 	</PropertyGroup>
 
 	<!--<ItemGroup>
-		<None Include="..\..\README.md">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
-	</ItemGroup>
-
-	<ItemGroup>
 		<None Include="..\..\Packages\webview@avalonia-logo.png">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
