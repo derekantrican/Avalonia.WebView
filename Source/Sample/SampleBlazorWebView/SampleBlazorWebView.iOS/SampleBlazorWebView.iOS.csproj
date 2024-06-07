@@ -19,6 +19,5 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\SampleBlazorWebView\SampleBlazorWebView.csproj" />
-		<ProjectReference Include="..\..\..\Platform\iOS\Avalonia.WebView.iOS\Avalonia.WebView.iOS.csproj" />
 	</ItemGroup>
 </Project>
