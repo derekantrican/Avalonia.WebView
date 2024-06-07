@@ -49,8 +49,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebView.Core", "Source\WebV
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaWebView.Shared", "Source\AvaloniaWebView.Shared\AvaloniaWebView.Shared.csproj", "{2A2FA36D-BCB3-4C99-86FE-A534FB211EF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avalonia.BlazorWebView", "Source\Avalonia.BlazorWebView\Avalonia.BlazorWebView.csproj", "{6067C60B-5E91-43B9-A077-1A8E5318ED9A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avalonia.WebView.Mac", "Source\Platform\Mac\Avalonia.WebView.Mac\Avalonia.WebView.Mac.csproj", "{C6673D56-527D-44A0-9534-E9446888C44B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avalonia.WebView.Linux", "Source\Platform\Linux\Avalonia.WebView.Linux\Avalonia.WebView.Linux.csproj", "{60138273-B56D-4606-9D7B-49BA2A1E5F63}"
@@ -77,8 +75,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Package", ".Package", "{0C
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebView.Avalonia", "Packages\WebView.Avalonia\WebView.Avalonia.csproj", "{01486A20-FAEF-4458-9653-842EF9E6296A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebView.Avalonia", "Packages\BlazorWebView.Avalonia\BlazorWebView.Avalonia.csproj", "{DBF2E1C0-7CDE-4469-A011-7D59E2A74193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -118,10 +114,6 @@ Global
 		{2A2FA36D-BCB3-4C99-86FE-A534FB211EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2FA36D-BCB3-4C99-86FE-A534FB211EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2FA36D-BCB3-4C99-86FE-A534FB211EF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6067C60B-5E91-43B9-A077-1A8E5318ED9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6067C60B-5E91-43B9-A077-1A8E5318ED9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6067C60B-5E91-43B9-A077-1A8E5318ED9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6067C60B-5E91-43B9-A077-1A8E5318ED9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6673D56-527D-44A0-9534-E9446888C44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6673D56-527D-44A0-9534-E9446888C44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6673D56-527D-44A0-9534-E9446888C44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -162,10 +154,6 @@ Global
 		{01486A20-FAEF-4458-9653-842EF9E6296A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01486A20-FAEF-4458-9653-842EF9E6296A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01486A20-FAEF-4458-9653-842EF9E6296A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBF2E1C0-7CDE-4469-A011-7D59E2A74193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBF2E1C0-7CDE-4469-A011-7D59E2A74193}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBF2E1C0-7CDE-4469-A011-7D59E2A74193}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBF2E1C0-7CDE-4469-A011-7D59E2A74193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,7 +177,6 @@ Global
 		{E176F4E6-93C3-4E7B-A3CE-E8CE29F627E6} = {69A9B177-4720-4495-A6BA-028141036014}
 		{F637CDDF-3319-4706-B9CF-6DBE9593FDF5} = {F8A28023-40F2-493A-9BE4-940A03E2F5FC}
 		{01486A20-FAEF-4458-9653-842EF9E6296A} = {0C1A9227-2CD9-475D-B0D0-F04FC5B4971B}
-		{DBF2E1C0-7CDE-4469-A011-7D59E2A74193} = {0C1A9227-2CD9-475D-B0D0-F04FC5B4971B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0921EC9A-CD2A-4912-BC79-11B67BBCBDF5}
