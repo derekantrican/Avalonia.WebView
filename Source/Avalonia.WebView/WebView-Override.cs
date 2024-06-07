@@ -51,7 +51,7 @@ partial class WebView
     protected override void OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs e)
     {
         base.OnDetachedFromVisualTree(e);
-        Child = null;
+        _partInnerContainer.Child = null;
         _platformWebView?.Dispose();
         _platformWebView = null;
     }
